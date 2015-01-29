@@ -14,6 +14,7 @@ This repository contains **Dockerfile** with a base of node plus forever
 
 2. Download [automated build](https://registry.hub.docker.com/u/wetopi/node/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull wetopi/node`
 
+3. Build `docker build -t="wetopi/node" github.com/wetopi/node .`
    (alternatively, you can build an image from Dockerfile: `docker build -t="wetopi/node" github.com/wetopi/node`)
 
 
